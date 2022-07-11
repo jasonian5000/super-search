@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Tahoma;
+  color: rgb(219, 219, 219);
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+  background-image: url("https://rukminim1.flixcart.com/image/832/832/jql8fbk0/poster/z/m/d/medium-pwl-wall-poster-13-19-inches-matte-finish-dc-vs-marvel-original-imaek7kdudjjxxhd.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  background: 255, 255, 255, 0.2;
+  backdrop-filter: blur(8px);
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 10px;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 60vw;
+  display: flex;
+  column-gap: 5px;
+}
+
+::placeholder {
+  color: rgba(223, 223, 223, 0.575);
+}
+
+.search-bar input[type="text"],
+button {
+  flex: 1;
+  color: rgb(219, 219, 219);
+  text-decoration: none;
+  background: rgba(185, 185, 185, 0.205);
+  padding: 5px 5px 5px 15px;
+  display: inline-block;
+  outline: thin solid #c0c0c0;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 2px;
+  height: 30px;
+}
+
+.search-bar input[type="text"]:hover,
+button:hover {
+  background: rgba(228, 227, 227, 0.3);
+}
+
+.search-bar button {
+  max-width: 100px;
+}
+
+.character-card {
+  background-color: transparent;
+  width: 80vw;
+  border: 1px solid #f1f1f1;
+}
+
+.character-card-inner {
+  text-align: center;
+}
+
+#front-card img {
+  max-width: 70vw;
+  max-height: 70vh;
+}
