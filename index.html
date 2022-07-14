@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Fan</title>
-    <script defer type='text/javascript' src='config.js'></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Search</title>
+    <script defer src="https://kit.fontawesome.com/89522f4215.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="config.js"></script>
     <script defer src="script.js"></script>
-    <link defer rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link defer rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="container">
-            <div class="title">
-                <h1>Super Fan</h1>
-                <p>Discover movies and tv shows featuring a comic book character and find out how to watch them.</p>
-            </div>
-            <div class="search-bar">
-                <input type="text" name="search-input" id="search-input" placeholder="Enter a character name" value="iron man">
-                <button type="button" id="search-button">Search</button>
-            </div>
-            <div class="character-card">
-                <!-- <div class="character-card-inner">
-                    <div id= "front-card">
-                        <h2>Name</h2>
-                        <img src="" alt="">
-                    </div>
-                    <div id="back-card">
-                        <p>Summary</p>
-                    </div>
-                </div> -->
-            </div>
+      <div class="container">
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </label>
+        <div class="title">
+          <h1>Find your Hero.</h1>
         </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            name="search-input"
+            id="search-input"
+            placeholder="Enter a character name"
+            value="iron man"
+          />
+          <button type="button" id="search-button">Search</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
