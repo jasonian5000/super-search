@@ -29,4 +29,4 @@ var config = {
 - On the results page you should find a brief summary about the character and link to the related ComicVine page along with a scrollable set of movie posters of movies the character has appeared in.
 - Click any of the movie posters to follow a link to the related TheMovieDB movie page.
 ---
-You can read more about how I created this project at *link coming soon*
+You can read more about how I created this project at [dev.to](https://dev.to/jasonian5000/my-first-front-end-api-project-58jl)
