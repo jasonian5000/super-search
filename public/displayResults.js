@@ -1,5 +1,5 @@
-const cv_key = process.env.CV_API_KEY;
-const tmdb_key = process.env.TMDB_KEY;
+const cv_key = config.CV_API_KEY;
+const tmdb_key = config.TMDB_KEY;
 const charURL = "https://www.comicvine.com/api/characters/";
 const searchResult = JSON.parse(localStorage.getItem("char"));
 
