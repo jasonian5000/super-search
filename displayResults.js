@@ -1,3 +1,4 @@
+<<<<<<< HEAD:displayResults.js
 <<<<<<< HEAD:public/displayResults.js
 const cv_key = process.env.CV_API_KEY;
 const tmdb_key = process.env.TMDB_KEY;
@@ -5,6 +6,10 @@ const tmdb_key = process.env.TMDB_KEY;
 const cv_key = config.CV_API_KEY;
 const tmdb_key = config.TMDB_KEY;
 >>>>>>> parent of e5cf21a (reconfigured into node.js to prep for deployment):displayResults.js
+=======
+const cv_key = config.CV_API_KEY || process.env.CV_API_KEY;
+const tmdb_key = config.TMDB_KEY || process.env.TMDB_KEY;
+>>>>>>> parent of a640aad (removed config from final js):public/displayResults.js
 const charURL = "https://www.comicvine.com/api/characters/";
 const searchResult = JSON.parse(localStorage.getItem("char"));
 
