@@ -1,4 +1,4 @@
-const cv_key = config.CV_API_KEY || process.env.CV_API_KEY;
+const cv_key = process.env.CV_API_KEY;
 const charURL = "https://www.comicvine.com/api/characters/";
 
 const getChar = async () => {
