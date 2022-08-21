@@ -1,12 +1,4 @@
-<<<<<<< HEAD:script.js
-<<<<<<< HEAD:public/script.js
-const cv_key = process.env.CV_API_KEY;
-=======
 const cv_key = config.CV_API_KEY;
->>>>>>> parent of e5cf21a (reconfigured into node.js to prep for deployment):script.js
-=======
-const cv_key = config.CV_API_KEY || process.env.CV_API_KEY;
->>>>>>> parent of a640aad (removed config from final js):public/script.js
 const charURL = "https://www.comicvine.com/api/characters/";
 
 const getChar = async () => {
