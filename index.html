@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Super Search</title>
     <script defer src="https://kit.fontawesome.com/89522f4215.js" crossorigin="anonymous"></script>
-    <script defer type='text/javascript' src='/config.js'></script>
-    <script defer src="/displayResults.js"></script>
-    <link defer rel="stylesheet" href="/style.css">
-</head>
-<body>
+    <script defer type="text/javascript" src="config.js"></script>
+    <script defer src="script.js"></script>
+    <link defer rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="container">
-            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <div class="container-home">
+        <input type="checkbox" id="hamburger-input" class="burger-shower"/>
             <label id="hamburger-menu" for="hamburger-input">
             <nav id="sidebar-menu">
                 <ul>
@@ -43,24 +43,11 @@
                 </ul>
             </nav>
             </label>
-            <input type="text" id="search-input" placeholder="Enter a character name..">
-            <div id="character-card">
-                <img id="charImage" src="">
-                <div class="charDetails">
-                    <h2 id="charName"></h2>
-                    <p id="charSummary"></p>
-                    <a id="charLink" href="" ><img class="logo" src="https://comicvine.gamespot.com/a/bundles/comicvinesite/images/logo.png" alt="comicvine link"></a>
-                </div>
-            </div>
-            <div class="posters-container">
-                <button id="left-button" type="button"><</button>
-                <div id="movie-panels">
-                    <ul>
-                    </ul>
-                </div>
-                <button id="right-button" type="button">></button>
-            </div>
+        <div class="title">
+          <h1 id="message-area">Find your Hero.</h1>
         </div>
+          <input type="text" id="search-input" placeholder="Enter a character name..">
+      </div>
     </div>
-</body>
+  </body>
 </html>
